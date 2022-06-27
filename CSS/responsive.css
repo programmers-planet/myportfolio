@@ -1,0 +1,230 @@
+@media (max-width:768px){
+    .content-wrapper {
+        position: absolute;
+        top: 20%;
+        left: 6%;
+    }
+
+    #side-bar{
+        left: -300px;
+    }
+    .openbtn i{
+        visibility: visible;
+        
+    }
+    #side-bar{
+        left: -300px;
+    }
+    .about-me:before{
+        display: none;
+    }
+    .slider-img {
+        height: 500px;
+    }
+    .content-wrapper h3 {
+        color: #ffc107;
+        text-transform: capitalize;
+        text-align: center;
+        font-size: 25px;
+        font-family: system-ui;
+    }
+    .content-wrapper {
+        position: absolute;
+        top: 20%;
+        left: 6%;
+    }
+    .type{
+        font-size: 25px;
+    }
+    .slider-cont h2{
+        font-size: 35px;
+    }
+    .my-img {
+        width: 100%;
+        margin-bottom: 30px;
+        overflow: hidden;
+        margin-left: 0px !important;
+    }
+    .my-img img{
+        margin-left: 0px;
+    }
+    .toggle-btn i{
+        visibility: visible;
+    }
+    .about-me {
+        background: white;
+        padding: 40px 25px;
+        width: 100%;
+        border-radius: 15px;
+        margin-left: 0px;
+        position: relative;
+    }
+    .loader img {
+        width: 35%;
+        border: 1px solid white;
+        padding: 30px 20px;
+        border-radius: 100%;
+    }
+    .wrapper{
+        width: 100%;
+    }
+    .logo {
+        width: 200px;
+        margin-left: 0px;
+    }
+    .topnav{
+        display: block;
+    }
+    a.logo img {
+        width: 100%;
+    }
+    .topnav a.icon {
+        background: transparent;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 11px;
+        font-size: 32px;
+    }
+    .desktop-menu{
+        display: none;
+    }
+    .number-box-1 {
+        margin: 20px;
+        width: 220px;
+    }
+    .count-wrapper {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .accademic {
+        padding: 26px 40px;
+        border-radius: 20px;
+        margin: 40px 0px;
+    }
+    .slick-list.draggable {
+        height: 460px;
+    }
+    .client-box {
+padding: 16px 18px 32px;
+    }
+}
+
+
+@media (max-width:600px){
+   
+    .about-me:before{
+        display: none;
+    }
+    .slider-img {
+        height: 440px;
+    }
+    .content-wrapper h3 {
+        color: #ffc107;
+        text-transform: capitalize;
+        text-align: center;
+        font-size: 23px;
+        font-family: system-ui;
+    }
+    .content-wrapper {
+        position: absolute;
+        top: 20%;
+        left: 0%;
+    }
+    .type{
+        font-size: 19px;
+    }
+    .slider-cont h2{
+        font-size: 20px;
+    }
+    .my-img {
+        width: 100%;
+        margin-bottom: 30px;
+        overflow: hidden;
+        margin-left: 0px;
+    }
+    .toggle-btn i{
+        visibility: visible;
+    }
+    .side-bar.active{
+        left: 0;
+    }
+    .about-me {
+        background: white;
+        padding: 40px 25px;
+        width: 100%;
+        border-radius: 15px;
+        position: relative;
+        margin-left: 0px;
+    }
+    .loader img {
+        width: 35%;
+        border: 1px solid white;
+        padding: 30px 20px;
+        border-radius: 100%;
+    }
+    .wrapper{
+        width: 100%;
+    }
+    .logo {
+        width: 150px;
+        margin-left: 0px;
+    }
+    .topnav{
+        display: block;
+    }
+    a.logo img {
+        width: 100%;
+    }
+    .topnav a.icon {
+        background: #00000000;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0px;
+        font-size: 32px;
+    }
+    .desktop-menu{
+        display: none;
+    }
+    .number-box-1 {
+        margin: 20px;
+        width: 100%;
+    }
+ 
+}
+
+@media (max-width:1000px){
+    ul.menus li {
+        padding: 1px 10px 0px;
+        margin-top: 7px;
+    }
+    .logo {
+        width: 150px;
+        overflow: hidden;
+        margin: 5px 10px;
+    }
+    ul.menus li a {
+        font-size: 13px;
+        text-transform: uppercase;
+        font-family: system-ui;
+        font-weight: 400;
+    }
+    .before li:before {
+
+        bottom: 1px;
+     
+    }
+    .content-wrapper {
+        position: absolute;
+        top: 40%;
+        left: 2%;
+    }
+    .count-wrapper {
+        flex-wrap: wrap;
+    }
+    .number-box-1 {
+        margin: 20px;
+     
+    }
+}
